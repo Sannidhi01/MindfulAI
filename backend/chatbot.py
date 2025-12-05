@@ -5,7 +5,7 @@ from fastapi import APIRouter, Body
 
 chatbot_router = APIRouter(prefix="/chatbot", tags=["Chatbot"])
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "my_api_key")
 
 # Temporary in-memory conversation store
 session_memory = {}
