@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
 
     // 🔐 Get token from localStorage (matching login.js)
-    const token = localStorage.getItem('token'); // ✅ fixed key
+    const token = localStorage.getItem('token'); 
 
     if (!token) {
       alert("Please login to submit quiz results.");
