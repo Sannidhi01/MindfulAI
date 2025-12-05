@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const chatInput = document.getElementById('chat-input');
   const chatMessages = document.getElementById('chat-messages');
 
-  // ✅ Retrieve the stored token
+
   const token = localStorage.getItem('token');
   if (!token) {
     window.location.href = 'login.html';
