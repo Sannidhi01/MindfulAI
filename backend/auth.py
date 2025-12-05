@@ -94,7 +94,7 @@ async def login_for_access_token(
     return {
     "access_token": access_token,
     "token_type": "bearer",
-    "user_id": user.id  # ✅ send user_id back to frontend
+    "user_id": user.id  
 }
 
 async def get_current_user(
