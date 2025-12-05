@@ -8,7 +8,7 @@ MindfulAI is an intelligent mental health assistance platform designed to suppor
 
 🌐 1. AI Chatbot for Emotional Support
 
-Provides empathetic, conversational responses using NLP.
+Provides empathetic, conversational responses using LLM.
 
 Helps users to  engage in conversations with an AI chatbot trained to respond to mood and emotional states.
 
@@ -16,7 +16,7 @@ Helps users to  engage in conversations with an AI chatbot trained to respond to
 
 Users can write journal entries.
 
-The system analyzes sentiment as positive, neutral, or negative using Hugging Face transformer to track emotional trends over time.
+The system analyzes sentiment int the text as positive, neutral, or negative using Hugging Face transformer to track emotional trends over time.
 
 🧠 3. Psychometric Profiling based on a questionnare.
 
