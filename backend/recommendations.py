@@ -8,7 +8,7 @@ import os
 
 recommendation_router = APIRouter(prefix="/recommend", tags=["Recommendations"])
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "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")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "my_api_key")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 @recommendation_router.get("/user/{user_id}")
