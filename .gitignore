@@ -1,4 +1,3 @@
-# Virtual environments
 venv/
 .venv/
 Frontend/venv/
@@ -7,15 +6,8 @@ Backend/venv/
 # Python cache
 __pycache__/
 *.pyc
-
-# VS Code
 .vscode/
 
-# Windows shortcuts
 *.lnk
-
-# Data (OPTIONAL — only if you don't want CSVs in repo)
-# data/
 data/data-final.csv.
-# Logs
 *.log
