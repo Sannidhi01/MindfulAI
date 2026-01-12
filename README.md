@@ -6,31 +6,31 @@ MindfulAI is an intelligent mental health assistance platform designed to suppor
 
 ## 🌟 Features
 
-🌐 1. AI Chatbot for Emotional Support
+1. AI Chatbot for Emotional Support
 
 Provides empathetic, conversational responses using LLM.
 
 Helps users to  engage in conversations with an AI chatbot trained to respond to mood and emotional states.
 
-📓 2. Diary-Based Sentiment Analysis
+2. Diary-Based Sentiment Analysis
 
 Users can write journal entries.
 
 The system analyzes sentiment int the text as positive, neutral, or negative using Hugging Face transformer to track emotional trends over time.
 
-🧠 3. Psychometric Profiling based on a questionnare.
+3. Psychometric Profiling based on a questionnare.
 
 Uses the Big Five Personality Test dataset.
 
 Applies K-Prototypes clustering to group users into different personality clusters.
 
-🎯 4. Personalized Recommendations
+4. Personalized Recommendations
 
 Combines sentiment + psychometric score to generate mental health insights.
 
 Suggests activities, resources, and coping strategies based on mood trends and psychometric profile.
 
-🔐 5. Secure User Authentication
+5. Secure User Authentication
 
 Login, signup, session handling
 
